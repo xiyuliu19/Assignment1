@@ -24,9 +24,10 @@ head pubmed.090421.v1.txt
 pip install wordcloud
 ls -l
 pip install wordcloud --user
-wordcloud_cli --text pubmed.090421.v1.txt --imagefile wordcloud.png
+wordcloud_cli --text pubmed.090421.v1.txt --color red --background white --imagefile wordcloud.png
 ls -l
 (#open a new window connected to the server)
 rsync -avz xiyuliu@trgn.usc.edu:~/wordcloud.png ~/Desktop
 enter xiyuliu@trgn.usc.edu's password
 receiving file "wordcloud.png"
+rename the file "assignment1 wordcloud.png"
