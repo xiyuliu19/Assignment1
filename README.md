@@ -24,6 +24,7 @@ head pubmed.090421.v1.txt
 pip install wordcloud
 ls -l
 pip install wordcloud --user
+wordcloud_cli --help
 wordcloud_cli --text pubmed.090421.v1.txt --color red --background white --imagefile wordcloud.png
 ls -l
 (#open a new window connected to the server)
